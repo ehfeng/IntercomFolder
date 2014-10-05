@@ -1,6 +1,6 @@
 Intercom Folder
 ===============
-Quick hack to automatically download segment data from Intercom into a Dropbox folder.
+Quick hack to automatically download segment data from Intercom (https://www.intercom.io/) into a Dropbox app folder.
 
 Setup
 -----
