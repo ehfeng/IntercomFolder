@@ -37,7 +37,7 @@ for segment in config.items('IntercomSegments'):
 	for user in users:
 		row=[]
 		for header in headers:
-			row.append(user[header])
+			row.append(str(user[header]))
 		writer.writerow(row)
 	dbx_client = dropbox.client.DropboxClient(dbx['access_token'])
 	f.close()
